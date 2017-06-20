@@ -380,6 +380,10 @@ namespace VRTK
                     break;
                 case "Vive MV":
                 case "Vive MV.":
+                case "Vive.MV":
+                case "Vive. MV":
+                case "Vive.MV.":
+                case "Vive. MV.":
                     returnValue = (summary ? Headsets.Vive : Headsets.ViveMV);
                     break;
                 case "Vive DVT":
